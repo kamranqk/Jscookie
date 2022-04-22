@@ -9,7 +9,7 @@ window.onload = function(){
 //GET VALUES FROM COOKIES/LOCAL STORAGE
 	var cookieArray = document.cookie.split(";");
 	var userName = cookieArray[0].split("=")[1];
-	var userMerch = cookieArray[1].split("=")[1];
+	//var userMerch = cookieArray[1].split("=")[1];
 
 	var userEmail = localStorage.getItem("email");
 
