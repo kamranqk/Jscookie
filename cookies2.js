@@ -15,7 +15,7 @@ window.onload = function(){
 
 //CREATE OUTPUT WITH VALUES
 	userOut.innerHTML = ", " + userName;
-	merchOut.innerHTML = userMerch;
+//	merchOut.innerHTML = userMerch;
 	
 	
 //I didn't do it for the lines above, but our logic should always check first if the cookie/storage item has been created 
