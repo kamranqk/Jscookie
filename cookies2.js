@@ -18,7 +18,9 @@ window.onload = function(){
 	merchOut.innerHTML = userMerch;
 	
 	
-//I didn't do it for the lines above, but our logic should always check first if the cookie/storage item has been created to avoid 'undefined' or 'null' errors.  Below I am checking if the local storage value is null before outputting to the screen.  For cookies, you can check that the length property is > 0.
+//I didn't do it for the lines above, but our logic should always check first if the cookie/storage item has been created 
+//to avoid 'undefined' or 'null' errors.  Below I am checking if the local storage value is null before outputting to the screen.  
+//For cookies, you can check that the length property is > 0.
 	if (userEmail !== null) {
 		emailOut.innerHTML = "We will send an email to " + userEmail + " when something new comes in.";
 	}
