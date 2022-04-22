@@ -56,9 +56,9 @@ var shortCut = cookieArray[1].split("=")[1];
 //COOKIES HAVE DRAWBACKS, THEY ARE LIMITED TO AROUND 4 KB AND ARE SENT WITH EACH SERVER REQUEST. THERE IS ANOTHER OPTION:
 /*The window object has two properties we can use for persistent storage as well.  localStorage & sessionStorage  store name/value pairs on the client computer in a setters & getters fashion.  The only difference is that sessionStorage is removed when the session ends. Better than cookies, they can store 5MB or more of data.*/
 //STORING DATA ON THE CLIENT COMPUTER
-localStorage.setItem("email", "me@example.com");
+//localStorage.setItem("email", "me@example.com");
 
 //OTHER METHODS
 var userEmail = localStorage.getItem("email");//RETRIEVE STORED VALUE.
-//localStorage.removeItem("email");//DELETES THIS ITEM.
+localStorage.removeItem("email");//DELETES THIS ITEM.
 //localStorage.clear();//DELETES ALL ITEMS.
